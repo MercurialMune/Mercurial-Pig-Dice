@@ -1,22 +1,138 @@
-body{
+body {
   background-image: url("../img/back1.jpg");
 }
-.head{
-  max-height:150px;
-  width:auto;
-  background-color: #111;
-  z-index: -1
-  color: white;
-  padding: 15px;
+h3{
   text-align: center;
-  top:0;
-  left:0;
-  right:0;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: #111;
+  top: 0;
+  left: 0;
+  right: 0;
   margin-bottom: 20px;
 }
-/* .playSpace{
+
+.logo1 {
+  top: 0;
+  left: 0;
+  float: left;
+  width: 15%;
+}
+
+.logo2 {
+  top: 0;
+  right: 0;
+  float: right;
+  width: 15%;
+}
+
+.logo1 img {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.logo2 img {
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+.middle {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.player1 {
+  overflow: visible;
+  position: relative;
+  width: auto;
+  float: left;
+  width: 50%;
+  background-color: #F44D00;
+  /* min-height: 400px; */
+  height: calc(100% -20px);
+}
+#firstPlayerCurrentScore p{
+  margin-top: 50px;
+  margin-left: 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+.btnGroup{
+  z-index: 9999;
+  overflow: visible;
+  width:60px;
+  height:60px;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+button{
+  overflow: visible;
+  border:none;
+  background-color:#111;
+}
+.player1-labels{
+  margin-left: 25%;
+}
+.player1-labels div{
+  top:30%;
+  text-align: center;
+  /* left: 50%; */
+  width:150px;
+  height:80px;
+  background-color:#111;
+  color: #FFF;
+}
+.player2 {
+  overflow: visible;
+  position:relative;
+  width: auto;
+  float: right;
+  min-width: 50%;
+  background-color: #FCE1B0;
+  min-height: 400px;
+}
+.player2-labels{
+  margin-left: 30%;
+}
+.player2-labels div{
+  top:30%;
+  text-align: center;
+  width:150px;
+  height:80px;
+  background-color:#111;
+  color: #FFF;
+}
+.playSpace {
+  margin-top: 50px;
+  min-height: 20px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  margin: 15px;
+  width: 80%;
+  display: flex;
+  border-radius: 2px;
   height: 100%;
-  margin: 20px;
-  padding-top: 20px;
-  top: 20px;
-} */
+  margin-left: auto;
+  margin-right: auto;
+}
+#news1{
+  text-align: center;
+  font-size: ;
+  font-weight:bolder;
+}
