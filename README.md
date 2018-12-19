@@ -12,7 +12,7 @@ To deploy the program, stage it on Git and push it to GitHub. Then, create a gh-
 The live page can be found in the following link: [The Mercurial Pig Dice](https://mercurialmune.github.io/Mercurial-Pig-Dice/)
 
 * After Deployment, the following image shows what the expected output would be.
-![A screenshot of what the program looks like](img/screenshot1.png)
+![A screenshot of what the program looks like](img/screenshot1.jpg)
 
 
 ## Behavior Driven Development
